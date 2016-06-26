@@ -1,0 +1,233 @@
+<table height="4373" align="center" border="1" cellpadding="5" cellspacing="0">
+<tbody>
+<tr>
+<th align="center"><span id="result_box" class="" lang="en"><span
+class="hps">command</span> <span class="hps"></span></span></th>
+<th align="center" valign="middle"><span id="result_box"
+class="" lang="en"><span class="hps">lvl</span></span></th>
+<th align="center" valign="middle"><span id="result_box"
+class="" lang="en"><span class="hps">help</span> <span
+class="hps">on the</span> <span class="hps">comand</span></span></th>
+</tr>
+<tr>
+<td> help [&lt;command|level&gt;] </td>
+<td align="center" valign="middle"> 0 </td>
+<td align="left" valign="middle"> 
+get info on how to use a command, you can use *&lt;command&gt; for partial matches </td>
+</tr>
+<tr>
+<td> rules </td>
+<td align="center" valign="middle"> 0 </td>
+<td align="left" valign="middle"> say the rules </td>
+</tr>
+<tr>
+<td> translang </td>
+<td align="center" valign="middle"> 0 </td>
+<td align="left" valign="middle"> display a list of available language codes </td>
+</tr>
+<tr>
+<td> admins </td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> lists all the online admins </td>
+</tr>
+<tr>
+<td> regtest </td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> display your current user status </td>
+</tr>
+<tr>
+<td> servers [server #] </td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> advertise game servers. If a server number is given advertise that server only. </td>
+</tr>
+<tr>
+<td> time [&lt;timezone/offset&gt;]</td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> display the servers current time </td>
+</tr>
+<tr>
+<td> translast [&lt;target&gt;] </td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> translate the latest available sentence from the chat </td>
+</tr>
+<tr>
+<td> translate [&lt;source&gt;*&lt;target&gt;] &lt;sentence&gt; </td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> translate a sentence </td>
+</tr>
+<tr>
+<td> xlrstats [&lt;name&gt;] </td>
+<td align="center" valign="middle"> 1 </td>
+<td align="left" valign="middle"> list a players XLR stats </td>
+</tr>
+<tr>
+<td> demo &lt;player&gt; / &lt;player stop&gt; </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle">  starts recording a demo for the given player. or &lt;stop&gt; to stop recording</td>
+</tr>
+<tr>
+<td> greeting [&lt;greeting&gt;] </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> set or list your greeting (use 'none' to remove) </td>
+</tr>
+<tr>
+<td> hello [Player] </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> The server show bigtext with Hellow... </td>
+</tr>
+<tr>
+<td> nextmap </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> list the next map in rotation</td>
+</tr>
+<tr>
+<td> noc </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> info client connections </td>
+</tr>
+<tr>
+<td> paident &lt;name&gt; </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> show the ip and guid of a player (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+<td> pateams </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> force teambalancing (all gametypes!) The player with the least time in a team will be switched. </td>
+</tr>
+<tr>
+<td> report &lt;player&gt; &lt;cheat-type&gt; </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> stops recording a demo for the given player and send the demo to our forums.</td>
+</tr>
+<tr>
+<td> seen &lt;name&gt; </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> when was a player last seen? </td>
+</tr>
+<tr>
+<td> stopdemo &lt;player&gt;  </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> to stop recording the demo and don't send it to forums.</td>
+</tr>
+<tr>
+<td> transauto &lt;on|off&gt; [&lt;language&gt;] </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle">Turn on and off the automatic translation </td>
+</tr>
+<tr>
+<td> xlrtopstats [&lt;#&gt;] </td>
+<td align="center" valign="middle"> 2 </td>
+<td align="left" valign="middle"> list the top # players of the last 14 days. </td>
+</tr>
+<tr>
+<td> votecycle </td>
+<td align="center" valign="middle"> 5 </td>
+<td align="left" valign="middle"> vote to cycle map</td>
+</tr>
+<tr>
+<td> leveltest [&lt;name&gt;] </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> display a user's status </td>
+</tr>
+<tr>
+<td> list </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> list all connected players </td>
+</tr>
+<tr>
+<td> listids [name] </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> Lists all player's IDs or name's ID </td>
+</tr>
+<tr>
+<td> (listmemberclan) </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> Member clan or team list </td>
+</tr>
+<tr>
+<td> lookup &lt;name&gt; </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> lookup a player in the database </td>
+</tr>
+<tr>
+<td> pabalance </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> move as few players as needed to create teams balanced by numbers AND skill. Locked players are not moved. </td>
+</tr>
+<tr>
+<td> poke &lt;player&gt; </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> notify a player that he needs to move </td>
+</tr>
+
+<tr>
+<td> say </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> say a message to all players </td>
+</tr>
+<tr>
+<td> spam &lt;message&gt; </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> spam a predefined message </td>
+</tr>
+<tr>
+<td> spamins &lt;name&gt; </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> display a spamins level </td>
+</tr>
+<tr>
+<td> spams </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> list spam messages </td>
+</tr>
+<tr>
+<td> votekick (!vk) &lt;name&gt; &lt;motive&gt; </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> call a votekick on that player for that motive </td>
+</tr>
+<tr>
+<td> whereis &lt;name&gt; </td>
+<td align="center" valign="middle"> 10 </td>
+<td align="left" valign="middle"> show where the user is connected from </td>
+</tr>
+<tr>
+<td> afk [Player] </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> ask if player is AFK, if no response, he's forced spectator </td>
+</tr>
+<tr>
+<td> exit </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> Send the name and @ID of the last player disconnected </td>
+</tr>
+<tr>
+<td> follow &lt;name&gt; </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> add user to the follow list </td>
+</tr>
+<tr>
+<td> followcheck </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> list connected users being followed </td>
+</tr>
+<tr>
+<td> notice &lt;name&gt; &lt;notice&gt; </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> Add a good/bad behavior note for the player </td>
+</tr>
+<tr>
+<td> privatemessage [Player] [Message]  </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> Send a message to a player </td>
+</tr>
+<tr>
+<td> votenextmap &lt;map&gt;  </td>
+<td align="center" valign="middle"> 15 </td>
+<td align="left" valign="middle"> vote for the next map.</td>
+</tr>
+<tr>
+<td> ci &lt;player&gt; </td>
+<td align="center" valign="middle"> 20 </td>
+<td align="left" valign="middle"> Kick a player that has an interrupted connection </td>
+</tr..
