@@ -9,225 +9,674 @@ class="" lang="en"><span class="hps">lvl</span></span></th>
 class="" lang="en"><span class="hps">help</span> <span
 class="hps">on the</span> <span class="hps">comand</span></span></th>
 </tr>
-<tr>
-<td> help [&lt;command|level&gt;] </td>
-<td align="center" valign="middle"> 0 </td>
-<td align="left" valign="middle"> 
-get info on how to use a command, you can use *&lt;command&gt; for partial matches </td>
-</tr>
-<tr>
-<td> rules </td>
-<td align="center" valign="middle"> 0 </td>
-<td align="left" valign="middle"> say the rules </td>
-</tr>
-<tr>
-<td> translang </td>
-<td align="center" valign="middle"> 0 </td>
-<td align="left" valign="middle"> display a list of available language codes </td>
-</tr>
-<tr>
-<td> admins </td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> lists all the online admins </td>
-</tr>
-<tr>
-<td> regtest </td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> display your current user status </td>
-</tr>
-<tr>
-<td> servers [server #] </td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> advertise game servers. If a server number is given advertise that server only. </td>
-</tr>
-<tr>
-<td> time [&lt;timezone/offset&gt;]</td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> display the servers current time </td>
-</tr>
-<tr>
-<td> translast [&lt;target&gt;] </td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> translate the latest available sentence from the chat </td>
-</tr>
-<tr>
-<td> translate [&lt;source&gt;*&lt;target&gt;] &lt;sentence&gt; </td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> translate a sentence </td>
-</tr>
-<tr>
-<td> xlrstats [&lt;name&gt;] </td>
-<td align="center" valign="middle"> 1 </td>
-<td align="left" valign="middle"> list a players XLR stats </td>
-</tr>
-<tr>
-<td> demo &lt;player&gt; / &lt;player stop&gt; </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle">  starts recording a demo for the given player. or &lt;stop&gt; to stop recording</td>
-</tr>
-<tr>
-<td> greeting [&lt;greeting&gt;] </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> set or list your greeting (use 'none' to remove) </td>
-</tr>
-<tr>
-<td> hello [Player] </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> The server show bigtext with Hellow... </td>
-</tr>
-<tr>
-<td> nextmap </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> list the next map in rotation</td>
-</tr>
-<tr>
-<td> noc </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> info client connections </td>
-</tr>
-<tr>
-<td> paident &lt;name&gt; </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> show the ip and guid of a player (You can safely use the command without the 'pa' at the beginning) </td>
-</tr>
-<tr>
-<td> pateams </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> force teambalancing (all gametypes!) The player with the least time in a team will be switched. </td>
-</tr>
-<tr>
-<td> report &lt;player&gt; &lt;cheat-type&gt; </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> stops recording a demo for the given player and send the demo to our forums.</td>
-</tr>
-<tr>
-<td> seen &lt;name&gt; </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> when was a player last seen? </td>
-</tr>
-<tr>
-<td> stopdemo &lt;player&gt;  </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> to stop recording the demo and don't send it to forums.</td>
-</tr>
-<tr>
-<td> transauto &lt;on|off&gt; [&lt;language&gt;] </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle">Turn on and off the automatic translation </td>
-</tr>
-<tr>
-<td> xlrtopstats [&lt;#&gt;] </td>
-<td align="center" valign="middle"> 2 </td>
-<td align="left" valign="middle"> list the top # players of the last 14 days. </td>
-</tr>
-<tr>
-<td> votecycle </td>
-<td align="center" valign="middle"> 5 </td>
-<td align="left" valign="middle"> vote to cycle map</td>
-</tr>
-<tr>
-<td> leveltest [&lt;name&gt;] </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> display a user's status </td>
-</tr>
-<tr>
-<td> list </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> list all connected players </td>
-</tr>
-<tr>
-<td> listids [name] </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> Lists all player's IDs or name's ID </td>
-</tr>
-<tr>
-<td> (listmemberclan) </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> Member clan or team list </td>
-</tr>
-<tr>
-<td> lookup &lt;name&gt; </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> lookup a player in the database </td>
-</tr>
-<tr>
-<td> pabalance </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> move as few players as needed to create teams balanced by numbers AND skill. Locked players are not moved. </td>
-</tr>
-<tr>
-<td> poke &lt;player&gt; </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> notify a player that he needs to move </td>
-</tr>
+
 
 <tr>
-<td> say </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> say a message to all players </td>
+  <td> help [&lt;command|level&gt;] </td>
+  <td align="center" valign="middle"> 0 </td>
+  <td align="left" valign="middle"> get info on how to use a command, you can use *&lt;command&gt; for partial matches </td>
 </tr>
 <tr>
-<td> spam &lt;message&gt; </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> spam a predefined message </td>
+  <td> rules </td>
+  <td align="center" valign="middle"> 0 </td>
+  <td align="left" valign="middle"> say the rules </td>
 </tr>
 <tr>
-<td> spamins &lt;name&gt; </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> display a spamins level </td>
+  <td> translang </td>
+  <td align="center" valign="middle"> 0 </td>
+  <td align="left" valign="middle"> display a list of available language codes </td>
 </tr>
 <tr>
-<td> spams </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> list spam messages </td>
+  <td> admins </td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> lists all the online admins </td>
 </tr>
 <tr>
-<td> votekick (!vk) &lt;name&gt; &lt;motive&gt; </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> call a votekick on that player for that motive </td>
+  <td> regtest </td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> display your current user status </td>
 </tr>
 <tr>
-<td> whereis &lt;name&gt; </td>
-<td align="center" valign="middle"> 10 </td>
-<td align="left" valign="middle"> show where the user is connected from </td>
+  <td> servers [server #] </td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> advertise game servers. If a server number is given advertise that server only. </td>
 </tr>
 <tr>
-<td> afk [Player] </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> ask if player is AFK, if no response, he's forced spectator </td>
+  <td> time [&lt;timezone/offset&gt;]</td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> display the servers current time </td>
 </tr>
 <tr>
-<td> exit </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> Send the name and @ID of the last player disconnected </td>
+  <td> translast [&lt;target&gt;] </td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> translate the latest available sentence from the chat </td>
 </tr>
 <tr>
-<td> follow &lt;name&gt; </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> add user to the follow list </td>
+  <td> translate [&lt;source&gt;*&lt;target&gt;] &lt;sentence&gt; </td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> translate a sentence </td>
 </tr>
 <tr>
-<td> followcheck </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> list connected users being followed </td>
+  <td> xlrstats [&lt;name&gt;] </td>
+  <td align="center" valign="middle"> 1 </td>
+  <td align="left" valign="middle"> list a players XLR stats </td>
 </tr>
 <tr>
-<td> notice &lt;name&gt; &lt;notice&gt; </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> Add a good/bad behavior note for the player </td>
+  <td> demo &lt;player&gt; / &lt;player stop&gt; </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle">  starts recording a demo for the given player. or &lt;stop&gt; to stop recording</td>
 </tr>
 <tr>
-<td> privatemessage [Player] [Message]  </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> Send a message to a player </td>
+  <td> greeting [&lt;greeting&gt;] </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> set or list your greeting (use 'none' to remove) </td>
 </tr>
 <tr>
-<td> votenextmap &lt;map&gt;  </td>
-<td align="center" valign="middle"> 15 </td>
-<td align="left" valign="middle"> vote for the next map.</td>
+  <td> hello [Player] </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> The server show bigtext with Hellow... </td>
 </tr>
 <tr>
-<td> ci &lt;player&gt; </td>
-<td align="center" valign="middle"> 20 </td>
-<td align="left" valign="middle"> Kick a player that has an interrupted connection </td>
-</tr..
+  <td> nextmap </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> list the next map in rotation</td>
+</tr>
+<tr>
+  <td> noc </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> info client connections </td>
+</tr>
+<tr>
+  <td> paident &lt;name&gt; </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> show the ip and guid of a player (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pateams </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> force teambalancing (all gametypes!) The player with the least time in a team will be switched. </td>
+</tr>
+<tr>
+  <td> report &lt;player&gt; &lt;cheat-type&gt; </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> stops recording a demo for the given player and send the demo to our forums.</td>
+</tr>
+<tr>
+  <td> seen &lt;name&gt; </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> when was a player last seen? </td>
+</tr>
+<tr>
+  <td> stopdemo &lt;player&gt;  </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> to stop recording the demo and don't send it to forums.</td>
+</tr>
+<tr>
+  <td> transauto &lt;on|off&gt; [&lt;language&gt;] </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle">Turn on and off the automatic translation </td>
+</tr>
+<tr>
+  <td> xlrtopstats [&lt;#&gt;] </td>
+  <td align="center" valign="middle"> 2 </td>
+  <td align="left" valign="middle"> list the top # players of the last 14 days. </td>
+</tr>
+<tr>
+  <td> votecycle </td>
+  <td align="center" valign="middle"> 5 </td>
+  <td align="left" valign="middle"> vote to cycle map</td>
+</tr>
+<tr>
+  <td> leveltest [&lt;name&gt;] </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> display a user's status </td>
+</tr>
+<tr>
+  <td> list </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> list all connected players </td>
+</tr>
+<tr>
+  <td> listids [name] </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> Lists all player's IDs or name's ID </td>
+</tr>
+<tr>
+  <td> (listmemberclan) </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> Member clan or team list </td>
+</tr>
+<tr>
+  <td> lookup &lt;name&gt; </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> lookup a player in the database </td>
+</tr>
+<tr>
+  <td> pabalance </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> move as few players as needed to create teams balanced by numbers AND skill. Locked players are not moved. </td>
+</tr>
+<tr>
+  <td> poke &lt;player&gt; </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> notify a player that he needs to move </td>
+</tr>
+<tr>
+  <td> say </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> say a message to all players </td>
+</tr>
+<tr>
+  <td> spam &lt;message&gt; </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> spam a predefined message </td>
+</tr>
+<tr>
+  <td> spamins &lt;name&gt; </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> display a spamins level </td>
+</tr>
+<tr>
+  <td> spams </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> list spam messages </td>
+</tr>
+<tr>
+  <td> votekick (!vk) &lt;name&gt; &lt;motive&gt; </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> call a votekick on that player for that motive </td>
+</tr>
+<tr>
+  <td> whereis &lt;name&gt; </td>
+  <td align="center" valign="middle"> 10 </td>
+  <td align="left" valign="middle"> show where the user is connected from </td>
+</tr>
+<tr>
+  <td> afk [Player] </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> ask if player is AFK, if no response, he's forced spectator </td>
+</tr>
+<tr>
+  <td> exit </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> Send the name and @ID of the last player disconnected </td>
+</tr>
+<tr>
+  <td> follow &lt;name&gt; </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> add user to the follow list </td>
+</tr>
+<tr>
+  <td> followcheck </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> list connected users being followed </td>
+</tr>
+<tr>
+  <td> notice &lt;name&gt; &lt;notice&gt; </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> Add a good/bad behavior note for the player </td>
+</tr>
+<tr>
+  <td> privatemessage [Player] [Message]  </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> Send a message to a player </td>
+</tr>
+<tr>
+  <td> votenextmap &lt;map&gt;  </td>
+  <td align="center" valign="middle"> 15 </td>
+  <td align="left" valign="middle"> vote for the next map.</td>
+</tr>
+<tr>
+  <td> ci &lt;player&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> Kick a player that has an interrupted connection </td>
+</tr>
+<tr>
+  <td> cyclemap </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> Cycle to the next map. (You can safely use the command without the pa at the beginning) </td>
+</tr>
+<tr>
+  <td> deletenotice &lt;name&gt; &lt;number&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> mark notice &lt;number&gt; as inactive in DB </td>
+</tr>
+<tr>
+  <td> followinfo &lt;name&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> show more details </td>
+</tr>
+<tr>
+  <td> followlist </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> list followed users </td>
+</tr>
+<tr>
+  <td> kafk [Player] </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> Ask if player is AFK, if no response, he's kick </td>
+</tr>
+<tr>
+  <td> lookupnotices &lt;name&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> lookup player's notices </td>
+</tr>
+<tr>
+  <td> pabigtext &lt;message&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> Print a Bold message on the center of all screens. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pastbans &lt;name&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> list all player's past bans </td>
+</tr>
+<tr>
+  <td> paswap &lt;player1&gt; [player2] </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> Swap two teams for 2 clients. If player2 is not specified, the admin using the command is swapped with player1. Doesn't work with spectators (exception for calling admin). </td>
+</tr>
+<tr>
+  <td> superbaninfo &lt;name&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> Give information about player's active bans </td>
+</tr>
+<tr>
+  <td> swap [Player1] [Player2/None]  </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> change team between (1 and 2) or (1 and you) </td>
+</tr>
+<tr>
+  <td> votemap (!vmap) &lt;map&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle">call a votemap for that map </td>
+</tr>
+<tr>
+  <td> warn &lt;name&gt; [&lt;warning&gt;]</td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> warn user </td>
+</tr>
+<tr>
+  <td> warninfo &lt;name&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> display how many warning points a user has </td>
+</tr>
+<tr>
+  <td> warns </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> list warnings </td>
+</tr>
+<tr>
+  <td> warntest &lt;warning&gt; </td>
+  <td align="center" valign="middle"> 20 </td>
+  <td align="left" valign="middle"> test a warning </td>
+</tr>
+<tr>
+  <td> (addbots)</td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> Add bots to the server </td>
+</tr>
+<tr>
+  <td> admintest </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> display your current user status </td>
+</tr>
+<tr>
+  <td> aliases &lt;name&gt; </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list a players aliases </td>
+</tr>
+<tr>
+  <td> allaliases &lt;name&gt; [&lt;detailed&gt;] </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list all player's aliases (no 10 alias limit), if &lt;detailed&gt; = y alias creation and modification time are shown </td>
+</tr>
+<tr>
+  <td> baninfo &lt;name&gt; </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> display how many bans a user has </td>
+</tr>
+<tr>
+  <td> kick &lt;name&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> kick a player </td>
+</tr>
+<tr>
+  <td> kickbots</td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> kick all bots in the server. &lt;perm&gt; to kick them until you use !addbots</td>
+</tr>
+<tr>
+  <td> listbans [&lt;name&gt;] [&lt;type&gt;] </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list all active bans, if name specified, list all active bans by that admin; type can be 'ban' or 'tempban', tempban is the default. </td>
+</tr>
+<tr>
+<td> paforce (!f) &lt;player&gt; &lt;red/blue/spec/free&gt; &lt;lock&gt; </td>
+<td align="center" valign="middle"> 40 </td>
+<td align="left" valign="middle"> Force a client to red/blue/spec or release the force (free) adding 'lock' will lock the player where it is forced to, default this is off. using 'all free' wil release all locks. </td>
+</tr>
+<tr>
+  <td> pamoon </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> Set moon mode &lt;on/off&gt; (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pamute &lt;player&gt; [&lt;duration&gt;] </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> Mute a player. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pasetgravity &lt;value&gt; </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> Set the gravity value. default = 800 (less means less gravity) </td>
+</tr>
+<tr>
+  <td> paskuffle </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> Skill shuffle. Shuffle players to balanced teams by numbers and skill. Locked players are also moved. </td>
+</tr>
+<tr>
+  <td> paslap &lt;player&gt; [&lt;ammount&gt;] </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> (multi)Slap a player. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> paveto </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> Veto current running Vote. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> superlookup &lt;name&gt; </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> search players that have used or are using that name </td>
+</tr>
+<tr>
+  <td> ultraadmins or &lt;level&gt;</td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list all online/offline admins in the server.</td>
+</tr>
+<tr>
+  <td> ultrab3 or &lt;variable&gt;</td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list ultra information about the server.</td>
+</tr>
+<tr>
+  <td> ultralist </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list ultra information for all players in the server.</td>
+</tr>
+<tr>
+  <td> ultraserverinfo or &lt;variable&gt;</td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> list ultra information about the server.</td>
+</tr>
+<tr>
+  <td>  unfollow &lt;name&gt; </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> remove user from the follow list </td>
+</tr>
+<tr>
+  <td> unmask [&lt;name&gt;]  </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> un-hide level </td>
+</tr>
+<tr>
+  <td> warnremove &lt;name&gt; </td>
+  <td align="center" valign="middle"> 40 </td>
+  <td align="left" valign="middle"> remove a users last warning </td>
+</tr>
+<tr>
+  <td> autonuke [Player] </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Send nuke until player die </td>
+</tr>
+<tr>
+  <td> giveitem </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Give an item to a player</td>
+</tr>
+<tr>
+  <td> makereg &lt;name&gt; &lt;group&gt;</td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> make a name a regular  </td>
+</tr>
+<tr>
+  <td> map &lt;map&gt;</td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> switch current map</td>
+</tr>
+<tr>
+  <td> mask &lt;group&gt; [&lt;name&gt;] </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> hide level </td>
+</tr>
+<tr>
+  <td> pamapreload </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Reload the current map. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pamaprestart </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Restart the current map. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> panuke &lt;player&gt; [&lt;ammount&gt;] </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> (multi)Nuke a player. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pashuffleteams </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Shuffle teams. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> paswapteams </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Swap teams. (You can safely use the command without the 'pa' at the beginning) </td>
+</tr>
+<tr>
+  <td> pavote &lt;on/off/reset&gt; </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Set voting on, off or reset to original value at bot start. Setting vote on will set the vote back to the value when it was set off. </td>
+</tr>
+<tr>
+  <td> scream &lt;message&gt; </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> yell a message to all player </td>
+</tr>
+<tr>
+  <td> spank &lt;name&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> spank a player, naughty boy! </td>
+</tr>
+<tr>
+  <td> tempban &lt;name&gt; &lt;duration&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> temporarily ban a player </td>
+</tr>
+<tr>
+  <td> teleport </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> <player> (<player>) - teleport to a player or teleport players </td>
+</tr>
+<tr>
+  <td> ultrauserinfo &lt;name&gt;</td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> display player's ultra information.</td>
+</tr>
+<tr>
+  <td> unbanexit </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Unban the last player disconnected </td>
+</tr>
+<tr>
+  <td> warnclear &lt;name&gt; </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> clear all of a users warnings </td>
+</tr>
+<tr>
+  <td> xlrhide &lt;player&gt; &lt;on/off&gt; </td>
+  <td align="center" valign="middle"> 60 </td>
+  <td align="left" valign="middle"> Hide/unhide a player from the stats </td>
+</tr>
+<tr>
+  <td> (addmaps) </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> add maps to the server </td>
+</tr>
+<tr>
+  <td> b3 </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> b3 - say b3's version info </td>
+</tr>
+<tr>
+  <td> ban &lt;name&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> ban a player </td>
+</tr>
+<tr>
+  <td> clear [&lt;player&gt;] </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> clear all tk points and warnings </td>
+</tr>
+<tr>
+  <td> fly </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> noclip mode</td>
+</tr>
+<tr>
+  <td> followsync </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> sync connected players </td>
+</tr>
+<tr>
+  <td> health </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Give health to a player</td>
+</tr>
+<tr>
+  <td> kickall &lt;pattern&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> kick all players matching &lt;pattern&gt; </td>
+</tr>
+<tr>
+  <td> listplugins </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> list all installed plugins.</td>
+</tr>
+<tr>
+  <td> maprotate </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> switch to the next map in rotation</td>
+</tr>
+<tr>
+  <td> maps </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> list the server's map rotation </td>
+</tr>
+<tr>
+  <td> paautoskuffle </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> 0-none, 1-advise, 2-autobalance, 3-autoskuffle - Enables auto-skill balancer</td>
+</tr>
+<tr>
+  <td> pabluewave &lt;seconds&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the blue wave respawn time.</td>
+</tr>
+<tr>
+  <td> pacaplimit &lt;caps&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the ammount of flagcamps before map is over. </td>
+</tr>
+<tr>
+  <td> pafraglimit &lt;frags&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the ammount of points to be scored before map is over. </td>
+</tr>
+<tr>
+  <td> pagear &lt;all/none/reset/[+-](nade|snipe|spas|pistol|auto|negev)&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set allowed weapons. </td>
+</tr>
+<tr>
+  <td> pahotpotato &lt;minutes&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the flag explode time. </td>
+</tr>
+<tr>
+  <td> paredwave &lt;seconds&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the red wave respawn time. </td>
+</tr>
+<tr>
+  <td> parespawngod &lt;seconds&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the respawn protection in seconds. </td>
+</tr>
+<tr>
+  <td> pasetnextmap &lt;mapname&gt; </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the nextmap (partial map name works) </td>
+</tr>
+<tr>
+  <td> pasetwave &lt;seconds&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the wave respawn time for both teams. </td>
+</tr>
+<tr>
+  <td> patimelimit &lt;minutes&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set the minutes before the map is over </td>
+</tr>
+<tr>
+  <td> paunskuffle </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Create unbalanced teams. Used to test !paskuffle and !pabalance. </td>
+</tr>
+<tr>
+  <td> pawaverespawns &lt;on/off&gt;</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Set waverespawns on, or off </td>
+</tr>
+<tr>
+  <td> permban &lt;name&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> ban a player permanently </td>
+</tr>
+<tr>
+  <td> (remmaps) </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Add bot maps to the server(and change mapcycle)</td>
+</tr>
+<tr>
+  <td> setlanguage</td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> <player> <language> - set a language to a player </td>
+</tr>
+<tr>
+  <td> spankall &lt;pattern&gt; [&lt;reason&gt;] </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> kick all players matching &lt;pattern&gt; </td>
+</tr>
+<tr>
+  <td> status </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Report status of bot </td>
+</tr>
+<tr>
+  <td> transname &lt;on|off&gt; </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle"> Switch the translator name on and off </td>
+</tr>
+<tr>
+  <td> unban &lt;name&gt; </td>
+  <td align="center" valign="middle"> 80 </td>
+  <td align="left" valign="middle">  un-ban a player</td>
+</tr>
+
+</tbody>
+</table>
+<tr>
