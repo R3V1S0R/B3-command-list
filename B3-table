@@ -10,6 +10,23 @@ class="" lang="en"><span class="hps">help</span> <span
 class="hps">on the</span> <span class="hps">comand</span></span></th>
 </tr>
 
+<tr><td>
+!help</td>	<td align="center" valign="middle">0</td>	<td align="left" valign="middle">show commands you can use</td>
+<tr><td>!rules</td>	<td align="center" valign="middle">0</td>	<td align="left" valign="middle">display server rules</td>
+<tr><td>!admins</td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">display all connected admins</td>
+<tr><td>!myid</td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">show your id</td>
+<tr><td>!rank <name></td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">show your rank/ a player rank</td>
+<tr><td>!servers</td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">display all servers with ip</td>
+<tr><td>!time</td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">display time</td>
+<tr><td>!translang</td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">translate from a language to another (for</td> more info do !h translate)
+<tr><td>!translast</td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">translate last sentence</td>
+<tr><td>!xlrstats <player></td>	<td align="center" valign="middle">1</td>	<td align="left" valign="middle">see your stats/ a player stats</td>
+<tr><td>!hello <name>/ @1</td>	<td align="center" valign="middle">2</td>	<td align="left" valign="middle">big hello to a player/ everybody</td>
+<tr><td>!nextmap</td>	<td align="center" valign="middle">2</td>	<td align="left" valign="middle">show next  map</td>
+<tr><td>!paident/ident <name></td>	<td align="center" valign="middle">2</td>	<td align="left" valign="middle">show the ip, guid and auth of a player</td>
+<tr><td>!pateams/teams</td>	<td align="center" valign="middle">2</td>	<td align="left" valign="middle">balance teams (even the number of players) </td>
+<tr><td>!transauto</td>	<td align="center" valign="middle">2</td>	<td align="left" valign="middle">translate authomatically</td>
+<tr><td>!xlrtopstats/10</td>	<td align="center" valign="middle">2</td>	<td align="left" valign="middle">show the first 3/10 playerson the server</td>
 
 <tr>
 <td>Contact [name]</td>
