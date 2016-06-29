@@ -272,7 +272,7 @@ K<td align="left" valign="middle">ick the afk player</td>
 <td align="center" valign="middle">60</td>
 <td align="left" valign="middle">Temporary ban a player (for at most 3 days)</td>
 </tr>
-<tr><td>ultrauserinfo/ !uui <player></td>
+<tr><td>ultrauserinfo/ uui <player></td>
 <td align="center" valign="middle">60</td>
 <td align="left" valign="middle">Ultra informations about a player</td>
 </tr>
