@@ -183,11 +183,11 @@ help</td>	<td align="center" valign="middle">0</td>	<td align="left" valign="mid
 </tr>
 <tr><td>kafk <name></td>
 <td align="center" valign="middle">40</td>
-K<td align="left" valign="middle">ick the afk player</td>
+<td align="left" valign="middle">kick the afk player</td>
 </tr>
 <tr><td>kick <name> <reason></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">ick a player</td>
+<td align="left" valign="middle">kick a player</td>
 </tr>
 <tr><td>listbans [<name>][<type>]</td>
 <td align="center" valign="middle">40</td>
@@ -219,8 +219,8 @@ K<td align="left" valign="middle">ick the afk player</td>
 </tr>
 <tr><td>superlookup/ slookup <name></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Search a player that is using or used that nam</td>
-</tr>e
+<td align="left" valign="middle">Search a player that is using or used that name</td>
+</tr>
 <tr><td>ultraadmins</td>
 <td align="center" valign="middle">40</td>
 <td align="left" valign="middle">List all online/offline admins in the srv</td>
