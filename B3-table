@@ -12,278 +12,389 @@ class="hps">on the</span> <span class="hps">comand</span></span></th>
 
 
 <tr>
-<td>!Contact [name]</td>
+<td>Contact [name]</td>
 <td align="center" valign="middle">5</td>
-<td align="left" valign="middle">Send an email to Vega (he s the only one in contact list)</td>
+<td align="left" valign="middle">Send an email to Vega (he s the only one in contact list</td>
 </tr>
-<tr><td>!pabalance/ !bal/ !balance</td>
+<tr><td>pabalance/ bal/ balance</td>
 <td align="center" valign="middle">5</td>
 <td align="left" valign="middle">Balancing the teams</td> 
 </tr>
-<tr><td>!leveltest  <name></td>
+<tr><td>leveltest  <name></td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Tells you the level of a player)</td>
+<td align="left" valign="middle">Tells you the level of a player</td>
 </tr>
-<tr><td>!list</td>
+<tr><td>list</td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Listing all players on the server)</td>
+<td align="left" valign="middle">Listing all players on the server</td>
 </tr>
-<tr><td>!listids</td>
+<tr><td>listids</td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Listing all connected players ids)</td>
+<td align="left" valign="middle">Listing all connected players ids</td>
 </tr>
-<tr><td>!lookup <name>/ @id</td>
+<tr><td>lookup <name>/ @id</td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Lookup a player in database)</td>
+<td align="left" valign="middle">Lookup a player in database</td>
 </tr>
-<tr><td>!poke <name></td>
+<tr><td>poke <name></td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Pokes a player)</td>
+<td align="left" valign="middle">Pokes a player</td>
 </tr>
-<tr><td>!say <message></td>
+<tr><td>say <message></td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Say a message to all players)</td>
+<td align="left" valign="middle">Say a message to all players</td>
 </tr>
-<tr><td>!seen <name></td>
+<tr><td>seen <name></td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Says when was a player last time connected)</td>
+<td align="left" valign="middle">Says when was a player last time connected</td>
 </tr>
-<tr><td>!spam <message></td>
+<tr><td>spam <message></td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Spams a predefined message)</td>
+<td align="left" valign="middle">Spams a predefined message</td>
 </tr>
-<tr><td>!whereis/ !wis <name></td>
+<tr><td>whereis/ wis <name></td>
 <td align="center" valign="middle">10</td>
-<td align="left" valign="middle">Telss you the location of a player)</td>
+<td align="left" valign="middle">Telss you the location of a player</td>
 </tr>
-<tr><td>!exit</td>
+<tr><td>exit</td>
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">Last player disconnected)</td>
+<td align="left" valign="middle">Last player disconnected</td>
 </tr>
-<tr><td>!follow <name></td>
+<tr><td>follow <name></td>
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">Add a user to the follow list)</td>
+<td align="left" valign="middle">Add a user to the follow list</td>
 </tr>
-<tr><td>!followcheck</td>
+<tr><td>followcheck</td>
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">List connected players wich are followed)</td>
+<td align="left" valign="middle">List connected players wich are followed</td>
 </tr>
-<tr><td>!noc <name></td>
+<tr><td>noc <name></td>
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">Numbers of connections)</td>
+<td align="left" valign="middle">Numbers of connections</td>
 </tr>
-<tr><td>!notice <name></td>
+<tr><td>notice <name></td>
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">Add a notice to a player (only visible for lvl 15 up) )</td>
+<td align="left" valign="middle">Add a notice to a player (only visible for lvl 15 up)</td>
 </tr>
-<tr><td>!paadvice
+<tr><td>paadvice
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">Skill difference between teams)</td>
+<td align="left" valign="middle">Skill difference between teams</td>
 </tr>
-<tr><td>!privatemessage/ !pm <name></td>
+<tr><td>privatemessage/ pm <name></td>
 <td align="center" valign="middle">15</td>
-<td align="left" valign="middle">Send a private message )</td>
+<td align="left" valign="middle">Send a private message</td>
 </tr>
-<tr><td>!afk <name></td>
+<tr><td>afk <name></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Sends and afk player to spec ( give it a bit of time) )</td>
+<td align="left" valign="middle">Sends and afk player to spec ( give it a bit of time)</td>
 </tr>
-<tr><td>!change <player1> <player2/none></td>
+<tr><td>change <player1> <player2/none></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Change players or teams)</td>
+<td align="left" valign="middle">Change players or teams</td>
 </tr>
-<tr><td>!ci</td>
+<tr><td>ci</td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Kick a player with CI)</td>
+<td align="left" valign="middle">Kick a player with CI</td>
 </tr>
-<tr><td>!cyclemap/ !cycle</td>
+<tr><td>cyclemap/ cycle</td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Cycle the map)</td>
+<td align="left" valign="middle">Cycle the map</td>
 </tr>
-<tr><td>!followinfo <name></td>
+<tr><td>followinfo <name></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Reason wthy is the player followed)</td>
+<td align="left" valign="middle">Reason wthy is the player followed</td>
 </tr>
-<tr><td>!deletenotice <name> <number></td>
+<tr><td>deletenotice <name> <number></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Delete a notice of a player)</td>
+<td align="left" valign="middle">Delete a notice of a player</td>
 </tr>
-<tr><td>!followlist</td>
+<tr><td>followlist</td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">List all followed users)</td>
+<td align="left" valign="middle">List all followed users</td>
 </tr>
-<tr><td>!lookupnotices <name></td>
+<tr><td>lookupnotices <name></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">See the notices of a player)</td>
+<td align="left" valign="middle">See the notices of a player</td>
 </tr>
-<tr><td>!pabigtext/ !bigtext <message></td>
+<tr><td>pabigtext/ bigtext <message></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Display a big text)</td>
+<td align="left" valign="middle">Display a big text</td>
 </tr>
-<tr><td>!paslap/ !slap <name> <number></td>
+<tr><td>paslap/ slap <name> <number></td>
 <td align="center" valign="middle">20</td>
 <td align="left" valign="middle">Slap a player)</td>
 </tr>
-<tr><td>!pastbans <name></td>
+<tr><td>pastbans <name></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Informations of past bans )</td>
+<td align="left" valign="middle">Informations of past bans</td>
 </tr>
-<tr><td>!swap <player1> <player2></td>
+<tr><td>swap <player1> <player2></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Change 2 players)</td>
+<td align="left" valign="middle">Change 2 players</td>
 </tr>
-<tr><td>!superbaninfo <name></td>
+<tr><td>superbaninfo <name></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Informations about player s active bans)</td>
+<td align="left" valign="middle">Informations about player s active bans</td>
 </tr>
-<tr><td>!warn/ !w <name> <reason></td>
+<tr><td>warn/ w <name> <reason></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Warn a player)</td>
+<td align="left" valign="middle">Warn a player</td>
 </tr>
-<tr><td>!warninfo <name></td>
+<tr><td>warninfo <name></td>
 <td align="center" valign="middle">20</td>
-<td align="left" valign="middle">Informations about warnings)</td>
+<td align="left" valign="middle">Informations about warnings</td>
 </tr>
-<tr><td>!warns </td>
+<tr><td>warns </td>
 <td align="center" valign="middle">20</td>
-<td align="left"valign="middle">Warnings examples)</td>
+<td align="left"valign="middle">Warnings examples</td>
 </tr>
-<tr><td>!alias <name></td>
+<tr><td>alias <name></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Gives you the alias of a player)</td>
+<td align="left" valign="middle">Gives you the alias of a player</td>
 </tr>
-<tr><td>!allaliases <name></td>
+<tr><td>allaliases <name></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">List all players aliases )</td>
+<td align="left" valign="middle">List all players aliases</td>
 </tr>
-<tr><td>!ban <name> <reason></td>
+<tr><td>ban <name> <reason></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Ban a player)</td>
+<td align="left" valign="middle">Ban a player</td>
 </tr>
-<tr><td>!baninfo <name></td>
+<tr><td>baninfo <name></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Informations about a ban)</td>
+<td align="left" valign="middle">Informations about a ban</td>
 </tr>
-<tr><td>!kafk <name></td>
+<tr><td>kafk <name></td>
 <td align="center" valign="middle">40</td>
-K<td align="left" valign="middle">ick the afk player)</td>
+K<td align="left" valign="middle">ick the afk player</td>
 </tr>
-<tr><td>!kick <name> <reason></td>
+<tr><td>kick <name> <reason></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">ick a player)</td>
+<td align="left" valign="middle">ick a player</td>
 </tr>
-<tr><td>!listbans [<name>][<type>]</td>
+<tr><td>listbans [<name>][<type>]</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">List all bans. If name specified list the bans of that admin. Type can be ban or tempban (default is tempban) )</td>
+<td align="left" valign="middle">List all bans. If name specified list the bans of that admin. Type can be ban or tempban (default is tempban)</td>
 </tr>
-<tr><td>!paforce <player> <location>/ !force</td>
+<tr><td>paforce <player> <location>/ force</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Force a player (red/blue team; spec) )</td>
+<td align="left" valign="middle">Force a player (red/blue team; spec)</td>
 </tr>
-<tr><td>!pamoon <on/off>/ !moon</td>
+<tr><td>pamoon <on/off>/ moon</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Activate/deactivate moon mode)</td>
+<td align="left" valign="middle">Activate/deactivate moon mode</td>
 </tr>
-<tr><td> pamute/ !mute <player> <time></td>
+<tr><td>pamute/ mute <player> <time></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Mute a player. If time is not selected mute last till the end of the map)</td>
+<td align="left" valign="middle">Mute a player. If time is not selected mute last till the end of the map</td>
 </tr>
-<tr><td> pasetgravity<number>/ !setgrav</td>
+<tr><td>pasetgravity<number>/ setgrav</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Change the gravity)</td>
+<td align="left" valign="middle">Change the gravity</td>
 </tr>
-<tr><td>!paskuffle/ !skuffle</td>
+<tr><td>paskuffle/ skuffle</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Skill shuffle)</td>
+<td align="left" valign="middle">Skill shuffle</td>
 </tr>
-<tr><td>!paveto/ !veto</td>
+<tr><td>paveto/ veto</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Cancel a vote)</td>
+<td align="left" valign="middle">Cancel a vote</td>
 </tr>
-<tr><td>!superlookup/ !slookup <name></td>
+<tr><td>superlookup/ slookup <name></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Search a player that is using or used that nam)</td>
+<td align="left" valign="middle">Search a player that is using or used that nam</td>
 </tr>e
-<tr><td>!ultraadmins</td>
+<tr><td>ultraadmins</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">List all online/offline admins in the srv)</td>
+<td align="left" valign="middle">List all online/offline admins in the srv</td>
 </tr>
-<tr><td>!ultrab3</td>
+<tr><td>ultrab3</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">List ultra informations about srv)</td>
+<td align="left" valign="middle">List ultra informations about srv</td>
 </tr>
-<tr><td>!ultralist</td>
+<tr><td>ultralist</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">List ultra informations for all players in the srv)</td>
+<td align="left" valign="middle">List ultra informations for all players in the srv</td>
 </tr>
-<tr><td>!ultraserverinfo</td>
+<tr><td>ultraserverinfo</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">List ultra informations about srv)</td>
+<td align="left" valign="middle">List ultra informations about srv</td>
 </tr>
-<tr><td>!unfollow <name></td>
+<tr><td>unfollow <name></td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Remove a player from follow list)</td>
+<td align="left" valign="middle">Remove a player from follow list</td>
 </tr>
-<tr><td>!unmask</td>
+<tr><td>unmask</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Unmask an admin)</td>
+<td align="left" valign="middle">Unmask an admin/td>
 </tr>
-<tr><td>!warnremove <player>/ !wr</td>
+<tr><td>warnremove <player>/ wr</td>
 <td align="center" valign="middle">40</td>
-<td align="left" valign="middle">Remove the last warning)</td>
+<td align="left" valign="middle">Remove the last warning</td>
 </tr>
-<tr><td>!autonuke</td>
+<tr><td>autonuke</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Send nuke until player die)</td>
+<td align="left" valign="middle">Send nuke until player die</td>
 </tr>
-<tr><td>!mask <level> <name></td>
+<tr><td>mask <level> <name></td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Go undercover )</td>
+<td align="left" valign="middle">Go undercover</td>
 </tr>
-<tr><td>!pamapreload/ !mapreload</td>
+<tr><td>pamapreload/ mapreload</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Reload the map)</td>
+<td align="left" valign="middle">Reload the map</td>
 </tr>
-<tr><td>!pamaprestart/ !maprestart</td>
+<tr><td>pamaprestart/ maprestart</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Restart the map)</td>
+<td align="left" valign="middle">Restart the map</td>
 </tr>
-<tr><td>!panuke <player> <number>/ !nuke</td>
+<tr><td>panuke <player> <number>/ nuke</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Nuke a player)</td>
+<td align="left" valign="middle">Nuke a player</td>
 </tr>
-<tr><td>!pashuffleteams</td>
+<tr><td>pashuffleteams</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Shuffle teams)</td>
+<td align="left" valign="middle">Shuffle teams</td>
 </tr>
-<tr><td>!paswapteams</td>
+<tr><td>paswapteams</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Swap teams)</td>
+<td align="left" valign="middle">Swap teams</td>
 </tr>
-<tr><td>!pavote <on/off/reset></td>
+<tr><td>pavote <on/off/reset></td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Turn vote on, off or reset the original
-<tr><td>!scream <message></td>
-<td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Scream a message)</td>
+<td align="left" valign="middle">Turn vote on, off or reset the original</td>
 </tr>
-<tr><td>!tempban <player> <time></td>
+<tr><td>scream <message></td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Temporary ban a player)</td>
+<td align="left" valign="middle">Scream a message</td>
 </tr>
-<tr><td>!ultrauserinfo/ !uui <player></td>
+<tr><td>tb / tempban <player> <time></td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Ultra informations about a player)</td>
+<td align="left" valign="middle">Temporary ban a player (for at most 3 days)</td>
 </tr>
-<tr><td>!unbanexit</td>
+<tr><td>ultrauserinfo/ !uui <player></td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Unban the last disconnected player)</td>
+<td align="left" valign="middle">Ultra informations about a player</td>
 </tr>
-<tr><td>!warnclear/ !wc <player></td>
+<tr><td>unbanexit</td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Clear all the warnings)</td>
+<td align="left" valign="middle">Unban the last disconnected player</td>
 </tr>
-<tr><td>!xlrhide <player>  <on/off></td>
+<tr><td>warnclear/ !wc <player></td>
 <td align="center" valign="middle">60</td>
-<td align="left" valign="middle">Hide/unhide player stats)</td>
+<td align="left" valign="middle">Clear all the warnings</td>
+</tr>
+<tr><td>xlrhide <player>  <on/off></td>
+<td align="center" valign="middle">60</td>
+<td align="left" valign="middle">Hide/unhide player stats</td>
+</tr>
+<tr>
+  <td>followsync</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">sync connected players</td>
+</tr>
+<tr>
+  <td>listplugins</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">list all used b3-plugins</td>
+</tr>
+<tr>
+  <td>maps</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">list the servers map rotation</td>
+</tr>
+<tr>
+  <td>mask <level> [<player>]</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">hide a level [for a specific player]</td>
+</tr>
+<tr>
+  <td>paautoskuffle</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">0-none, 1-advise, 2-autobalance, 3-autoskuffle - Enables auto-skill balancer</td>
+</tr>
+<tr>
+  <td>pabluewave <seconds></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set blue wave respawn time</td>
+</tr>
+<tr>
+  <td>pacaplimit <number></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set capture limit (for ctf)</td>
+</tr>
+<tr>
+  <td>pafraglimit <number></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set fraglimit</td>
+</tr>
+<tr>
+  <td>pagear <gearcode></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set gear restrictions. Find information at http://www.urbanterror.info/support/120-/</td>
+</tr>
+<tr>
+  <td>pahotpotato <seconds></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set time until hot potato (in ctf)</td>
+</tr>
+<tr>
+  <td>paredwave <seconds></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set red wave respawn time</td>
+</tr>
+<tr>
+  <td>parespawngod <seconds></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set respawn protection time</td>
+</tr>
+<tr>
+  <td>pasetnextmap <map></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set the next map to be played</td>
+</tr>
+<tr>
+  <td>pasetwave <seconds></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set wave respawn time for both teams</td>
+</tr>
+<tr>
+  <td>patimelimit <minutes></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">set timelimit in minutes</td>
+</tr>
+<tr>
+  <td>paunskuffle</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">force unbalanced teams (for testing skuffle/autoskuffle)</td>
+</tr>
+<tr>
+  <td>pawaverespawns <on/off></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">enable/disable wave respawns</td>
+</tr>
+<tr>
+  <td>permban/pb <player> [<reason>]</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">permanently ban an id</td>
+</tr>
+<tr>
+  <td>status</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">display b3 status</td>
+</tr>
+<tr>
+  <td>tempban <player> <duration> [<reason>] / tb</td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">temporarily ban a player. Here without time restrictions</td>
+</tr>
+<tr>
+  <td>transname <on/off></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">switch translator name on/off</td>
+</tr>
+<tr>
+  <td>unban <player></td>
+  <td align="center" valign="middle">80</td>
+  <td align="left" valign="middle">unban a player</td>
 </tr>
